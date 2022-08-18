@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <div class="contentBox">
+            <div class="gameBox">
+                <div class="pictureAndName">
+                    <div>
+                        <img
+                        class="image"
+                        src="https://www.samleisure.co.uk/wp-content/uploads/cm/2011/10/6220.1001.jpg" />
+                    </div>
+                    <span class="gameName">Table Football Score Keeper</span>
+                </div>
+                <div class="scoreAndButtons">
+                    <div class="scoreAndMaxScore">
+                        <div class="playersScore">
+                            <span class="pOneScore" id="pOneScore">0</span><span> to </span><span class="pTwoScore" id="pTwoScore">0</span>
+                        </div>
+                        <div class="maxScoreBox">
+                            <span class="maxScoreSet">Set the max score of the game:</span>
+                            <select name="" id="playTo">
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="allTheButtons">
+                        <div>
+                            <button class="playerOne" id="playerOne">+1 Player One</button>
+                        </div>
+                        <div>
+                            <button class="playerTwo" id="playerTwo">+2 Player Two</button>
+                        </div>
+                        <div>
+                            <button class="reset" id="reset">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js" defer></script>
+    </body>
+</html>

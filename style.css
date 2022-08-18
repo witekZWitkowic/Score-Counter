@@ -1,0 +1,76 @@
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    height: 85vh;
+}
+.image {
+    width: 400px;
+}
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.gameBox {
+    box-shadow: 1px 1px 10px #33333333;
+    width: 402px;
+    border-radius: 5px;
+}
+button {
+    width: 133px;
+    height: 30px;
+    color: #FFF;
+    border-radius: 2px;
+}
+.allTheButtons {
+    display: flex;
+    margin-top: 40px;
+}
+.scoreAndButtons {
+    box-shadow: 1px 1px 10px #33333333;
+    margin-top: 20px;
+}
+.pictureAndName {
+    margin-top: 20px;
+}
+.maxScoreSet {
+    font-size: 1.05rem;
+}
+#maxScore {
+    border-radius: 20px;
+    text-align: center;
+}
+.maxScoreBox {
+    margin: -20px 10px;
+    position: absolute;
+}
+.gameName {
+    margin: -60px 10px;
+    position: absolute;
+}
+.playersScore {
+    margin: 20px 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.playerOne {
+    background-color: #00774499;
+    border: none;
+}
+.playerTwo {
+    background-color: #0e5e9a99;
+    border: none;
+    margin:  0 1px;
+}
+.reset {
+    background-color: #64030399;
+    border: none;
+}
+#playTo {
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    color: #0e5e9a;
+    text-align: center;
+    font-size: 1rem;
+    outline: none;
+}
